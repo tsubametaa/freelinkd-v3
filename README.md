@@ -1,10 +1,11 @@
 # Freelinkd v3
 
->A Next.js 15 app (Turbopack) for the Freelinkd project — a small marketplace-style site that includes admin, UMKM, and user areas, forms, and a chatbot.
+> A Next.js 15 app (Turbopack) for the Freelinkd project — a small marketplace-style site that includes admin, UMKM, and user areas, forms, and a chatbot.
 
 ## Quick start
 
 Requirements
+
 - Node.js 18+ (recommended)
 - npm or yarn
 
@@ -12,20 +13,20 @@ Install
 
 1. Clone the repo
 
-	git clone <repo-url>
-	cd freelinkd-v3
+   git clone <repo-url>
+   cd freelinkd-v3
 
 2. Install dependencies
 
-	npm install
+   npm install
 
 3. Create environment variables
 
-	Create a `.env.local` file in the project root and add the variables described in the "Environment variables" section below.
+   Create a `.env.local` file in the project root and add the variables described in the "Environment variables" section below.
 
 4. Run the dev server
 
-	npm run dev
+   npm run dev
 
 The app will be available at http://localhost:3000 by default.
 
@@ -50,6 +51,7 @@ Available npm scripts (from `package.json`):
 ## Project structure (important paths)
 
 - `app/` — Next.js App Router pages, components and API routes.
+
   - `app/page.tsx` — Root page
   - `app/layout.tsx` — Root layout
   - `app/api/` — Server routes (authentication, forms, payment, chatbot)
@@ -76,7 +78,7 @@ If you open the files under `lib/` and `app/api/` you will see exact variable na
 
 TypeScript is configured. Run the TypeScript compiler or your editor's type checks. Example:
 
-  npx tsc --noEmit
+npx tsc --noEmit
 
 Tailwind is included; if you need to build CSS ensure your PostCSS/Tailwind config is set (project already contains `postcss.config.mjs` and Tailwind v4).
 
@@ -143,3 +145,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Team
+
+This project was created and is maintained by the Freelinkd team. Update this section with actual names, roles, and contact information for your project.
+
+- Alvin Putra — Developer (https://github.com/tsubametaa)
+- Alif Fahmi — CTO (https://github.com/aliffahmi1207)
+
+If you'd like, I can replace these placeholders with real team members from your organization, or add a `CONTRIBUTORS.md` file generated from git history.
